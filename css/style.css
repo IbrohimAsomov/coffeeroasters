@@ -90,6 +90,7 @@ img {
 
 .nav {
     margin-bottom: 43px;
+    margin-top: 44px;
 }
 
 .nav__item {
@@ -161,6 +162,10 @@ img {
 
 /* collection satrt */
 
+.collection {
+    margin-bottom: 200px;
+}
+
 .collaction-container {
     background-image: url("../img/collection-bg.svg");
     background-repeat: no-repeat;
@@ -187,4 +192,22 @@ img {
 .collection-items {
     display: flex;
     justify-content: center;
+}
+
+.collection-item__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    font-family: 'Fraunces';
+    display: inline-block;
+}
+
+.collection-item__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    display: inline-block;
 }
