@@ -1,0 +1,51 @@
+/* collection satrt */
+
+.collection {
+    margin-bottom: 200px;
+}
+
+.collaction-container {
+    background-image: url("../img/collection-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center top ;
+    padding-top: 130px;
+}
+
+.collection-items-item {
+    width: 255px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.collection-item__img {
+    padding-bottom: 67px;
+    object-fit: contain;
+}
+
+.collection-item__title {
+    padding-bottom: 24px;
+}
+
+.collection-items {
+    display: flex;
+    justify-content: center;
+}
+
+.collection-item__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    font-family: 'Fraunces';
+    display: inline-block;
+}
+
+.collection-item__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    display: inline-block;
+}

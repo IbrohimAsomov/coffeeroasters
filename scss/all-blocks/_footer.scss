@@ -1,0 +1,31 @@
+.footer {
+    margin-bottom: 88px;
+
+        &__container {
+            background-color: $barlov-color;
+        }
+            &__items {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 47px 0 47px;
+            }
+                &__list {
+                    display: flex;
+                    margin-left: -400px;
+                }
+                    &__item {
+                        margin-right: 33px;
+                        font-family: 'Barlow';
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #83888F;      
+                        text-transform: uppercase;    
+                        display: block;      
+                    }
+                        &__item-img {
+                            margin-left: 12px;
+                            margin-right: 12px;
+                        }
+}
