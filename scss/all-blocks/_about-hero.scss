@@ -1,0 +1,29 @@
+.about-hero {
+    margin-bottom: 168px;
+
+        &__container {
+            background-image: url("../img/about-hero-bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+            &__info {
+                padding: 137px 0 137px 86px;
+                width: 445px;
+            }
+                &__heading {
+                    margin-bottom: 24px;
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: #FEFCF7;                
+                }
+                    &__text {
+                        font-family: 'Barlow';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FEFCF7;                        
+                    }
+}

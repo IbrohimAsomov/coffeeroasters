@@ -1,0 +1,39 @@
+.about-quality {
+    margin-bottom: 170px;
+        &__container {
+            background-color: $barlov-color;
+            border-radius: 15px;
+        }
+            &__items {
+                display: flex;
+            }
+                &__item {
+                    width: 540px;
+                    margin: 88px 125px 176px 85px;
+                }
+                    &__heading {
+                        margin-bottom: 32px ;
+                        font-family: 'Fraunces';
+                        font-weight: 900;
+                        font-size: 40px;
+                        line-height: 48px;
+                        color: #FEFCF7;
+                    }
+
+                    &__text {
+                        font-family: 'Barlow';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FEFCF7;
+                        opacity: 0.5;               
+                    }
+
+                        &__wrapper {
+                            width: 445px;
+                            height: 474px; 
+                            margin-top: -198px;
+                            display: block;
+                        }
+
+}
