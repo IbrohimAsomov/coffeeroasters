@@ -20,20 +20,18 @@
                         color: #FEFCF7;
                     }
 
-                    &__text {
-                        font-family: 'Barlow';
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 26px;
-                        color: #FEFCF7;
-                        opacity: 0.5;               
-                    }
-
-                        &__wrapper {
-                            width: 445px;
-                            height: 474px; 
-                            margin-top: -198px;
-                            display: block;
+                        &__text {
+                            font-family: 'Barlow';
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: #FEFCF7;
+                            opacity: 0.5;               
                         }
+                            &__wraper {
+                                border-radius: 8px;
+                                margin-top: -88px;
+                            }
+
 
 }
